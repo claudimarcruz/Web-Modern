@@ -1,10 +1,10 @@
 function tipoTriangulo(x, y, z) {
     if ( x == y && x == z && y == z ) {
-        console.log('Triângulo equilátero')
+        console.log('Triângulo equilátero!')
     } else if ( x == y || x == z || y == z) {
-        console.log('Triângulo isósceles')
+        console.log('Triângulo isósceles!')
     } else {
-        console.log('Triângulo escaleno')
+        console.log('Triângulo escaleno!')
     }
 }
 

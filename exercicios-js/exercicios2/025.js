@@ -7,17 +7,12 @@ buscarPalavrasSemelhantes("pro", ["programação", "mobile", "profissional"]) //
 buscarPalavrasSemelhantes("python", ["javascript", "java", "c++"]) // retornará []*/
 
 let buscarPalavras = function(palavra, string) {
-    let resultadoBusca = []
-    for (let i = 0 ; i < string.length ; i++) {
-    if (string.charAt(i) === palavra) {
-        resultadoBusca.push(string)
-   
-    }
-    
-    }
-   return resultadoBusca
+    let resultadoBusca = string.filter(item => item.includes(palavra)) 
+    return resultadoBusca
 
 
 }
 
-console.log(buscarPalavras('portão', 'portão'))
+console.log(buscarPalavras('por', ['portão', 'portaria', 'baprfa' ]))
+
+

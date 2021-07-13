@@ -10,7 +10,7 @@ funcaoDaSorte(5) // retornará "Que pena! O número sorteado foi o 1"*/
 let numeroSorteado = function(numero) {
     let valorSorteado = Math.floor(Math.random() * 10 + 1)
     if (numero == valorSorteado) {
-        console.log(`Parabéns! O número sorteado foi o ${valorSorteado}`)
+        console.log(`Parabéns!!! O número sorteado foi o ${valorSorteado}`)
     }else {
         console.log(`Que pena! O número sorteado foi o ${valorSorteado}`)
     }

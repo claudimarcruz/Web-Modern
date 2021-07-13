@@ -13,11 +13,15 @@ despesasTotais([
 ]) // retornará 34599.89*/
 
 let precoTotal = function(obj) {
-    console.log(obj.preco)
+    let precoTotal = 0
+    for (let i = 0 ; i < obj.length ; i++) {
+        precoTotal += obj[i].preco
+    }
+    return precoTotal
 }
 
-const despesasTotais = {
-    nome: "Jornal online", 
+const despesasTotais = [
+{   nome: "Jornal online", 
     categoria: "Informação", 
     preco: 89.99
 },
@@ -26,6 +30,7 @@ const despesasTotais = {
     categoria: "Entretenimento",
     preco: 150
 }
+]
 
 
-precoTotal(despesasTotais)
+console.log(precoTotal(despesasTotais))

@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(120, 126, 109);
+    background-image: url(../imgs/carro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}

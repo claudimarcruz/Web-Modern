@@ -4,10 +4,10 @@ produto.nome = 'Nokia'
 produto['tipo'] = 'celular'
 produto.preco = 235
 
-console.log(produto)
+//console.log(produto)
 
 delete produto.preco
-console.log(produto)
+//console.log(produto)
 
 const carro = {
     modelo: 'civic',
@@ -32,16 +32,19 @@ const carro = {
         // ...
     }
 }
+const cond = carro.condutores
+console.log(cond)
+
 
 carro.proprietario.endereco.numero = 1000
 carro['proprietario']['endereco']['logradouro'] = 'AV Gigante'
-console.log(carro)
+//console.log(carro)
 
 //delete carro.condutores
 delete carro.proprietario.endereco
 delete carro.calcularSeguro
-console.log(carro)
-console.log(carro.condutores)
-console.log(carro.condutores.length)
+//console.log(carro)
+//console.log(carro.condutores)
+//console.log(carro.condutores.length)
 
 

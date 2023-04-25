@@ -11,7 +11,7 @@ console.log(Object.entries(pessoa))
 Object.entries(pessoa).forEach(([chave, valor]) => {
     console.log(`${chave}: ${valor}`)
 })
-
+/*
 Object.defineProperty(pessoa, 'dataNascimento', {
     enumerable: true,
     writable: false,
@@ -31,3 +31,4 @@ const obj = Object.assign(destino, o1, o2)
 Object.freeze(obj)
 obj.c = 1234
 console.log(obj)
+*/
